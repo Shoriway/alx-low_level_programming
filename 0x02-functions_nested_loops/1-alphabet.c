@@ -1,21 +1,24 @@
 #include "main.h"
 
 /**
- * main - prints alphabet in lowercase
- * followed by a new line
- * Return: Always 0 (Success)
+ * prints_alphabet- print all alphabet in lowercase
+ *
+ * This function uses a loop to print each letter of the alphabet in lowercase
+ * starting with 'a' and ending with 'z'. After printing all the letters, it
+ * adds a new line character to the output.
+ * Return: void
  */
 
-int main(void)
-{
-char ch;
+void print_alphabet(void)
 
-for (ch = 'a'; ch <= 'z'; ch++)
 {
-	putchar(ch);
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
+{
+	_putchar(c);
 }
 
-putchar('\n');
+_putchar('\n');
 
-return (0);
 }
