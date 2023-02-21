@@ -1,8 +1,9 @@
 #include "main.h"
 	/**
 	 * main - print_putchar
-	 * Write a program that prints _putchar, followed by a new line
-	 * Return: 0(Success)
+	 * is written by y
+	 *
+	 *  Return: 0(Success)
 	 */
 
 	int main(void)
